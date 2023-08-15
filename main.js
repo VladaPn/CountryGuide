@@ -16,7 +16,7 @@ searchBtn.addEventListener("click",()=>{
         <span class="data-span-wrapper">Continent: <span class="data-span">${data[0].continents[0]}</span></span>
         <span class="data-span-wrapper">Population: <span class="data-span">${data[0].population}</span></span>
         <span class="data-span-wrapper">Currency: <span class="data-span">${data[0].currencies[Object.keys(data[0].currencies)].name}-${Object.keys(data[0].currencies)[0]}</span></span>
-        <span class="data-span-wrapper">Currency: <span class="data-span">${Object.values(data[0].languages).toString().split(",").join(", ")}</span></span>
+        <span class="data-span-wrapper">Languages: <span class="data-span">${Object.values(data[0].languages).toString().split(",").join(", ")}</span></span>
         </div>
         `
 
